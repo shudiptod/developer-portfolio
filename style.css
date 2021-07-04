@@ -73,7 +73,7 @@ h2{
 }
  
 footer p{
-    color: crimson;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
