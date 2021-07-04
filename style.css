@@ -4,9 +4,14 @@ body{
 }
 .orange-color{
     color: orange;
-    font-size: px;
 }
-section{
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.flexible-container{
     display: flex;
     padding-bottom: 150px;
 }
@@ -16,7 +21,7 @@ section{
 }
 .half-width img{
     width: 80%;
-    height: 100%;
+    height: 80%;
 }
 
 .link-button{
@@ -38,4 +43,40 @@ section{
 }
 .dream-big .half-width{
     padding-right: 10%;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    
+    box-shadow: 10px 10px 40px   gray;
+}
+.experience-item p{
+    text-align: justify;
+    padding: 20px;
+}
+.experience-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon,tomato) 20;
+}   
+    
+#baby-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan) 20;
+}
+ 
+footer p{
+    color: crimson;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 500;
+    font-variant: small-caps;
 }
